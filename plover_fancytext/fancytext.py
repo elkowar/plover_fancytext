@@ -11,7 +11,7 @@ from .crytyping import CryTyping
 from .sarcasm import Sarcasm
 from .substitute import Substitute
 from .character_helpers import \
-    BUBBLE_MAP, MEDIEVAL_MAP, UPSIDE_DOWN_MAP, FULLWIDTH_MAP
+    BUBBLE_MAP, MEDIEVAL_MAP, UPSIDE_DOWN_MAP, FULLWIDTH_MAP, L33T_MAP
 
 
 class PloverPlugin(Thread):
@@ -31,6 +31,7 @@ class PloverPlugin(Thread):
             'fullwidth': lambda: Substitute(FULLWIDTH_MAP),
             'sarcasm': lambda: Sarcasm(),
             'upsidedown': lambda: Substitute(UPSIDE_DOWN_MAP),
+            '1337': lambda: Substitute(L33T_MAP),
             'zalgo': lambda minimum=1, maximum=3: Zalgo(int(minimum),
                                                         int(maximum))
         }

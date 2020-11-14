@@ -234,6 +234,25 @@ FULLWIDTH_MAP = {
     "z": "\uFF5A"
 }
 
+L33T_MAP = {
+    "E": "3",
+    "e": "3",
+    "I": "1",
+    "i": "1",
+    "A": "4",
+    "a": "4",
+    "S": "$",
+    "s": "2",
+    "L": "1",
+    "l": "1",
+    "T": "7",
+    "t": "7",
+    "o": "0",
+    "O": "0",
+    "Z": "2",
+    "z": "2"
+}
+
 COMBINING_MARKS = [
     '\u0300',  # ̀ 	768 	Combining Grave Accent
     '\u0301',  # ́ 	769 	Combining Acute Accent
